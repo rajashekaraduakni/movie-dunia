@@ -1,0 +1,34 @@
+[
+{
+"id":"181",
+"song_title": "O Sakkanoda",
+"imageURL": "http://myewalletsfykxuhqe9y.devcloud.acquia-sites.com/sites/default/files/Guru.jpg",
+"banner": "https://in.bmscdn.com/showcaseimage/eventtrailer/jagga-jasoos-movie-showcase-23-06-2017-20-16.jpg",
+"movie_name": "Guru",
+"director_name": "Sudha Kongara Prasad",
+"music_director_name": "Santhosh Narayanan",
+"artists": [
+	{
+	"role":"Director", 
+	"image":"http://in.bmscdn.com/iedb/artist/images/website/poster/large/harish-shankar-20585-24-03-2017-14-02-27.jpg", 
+	"name":"name"
+	},
+	{
+	"role":"Music Director", 
+	"image":"http://in.bmscdn.com/iedb/artist/images/website/poster/large/harish-shankar-20585-24-03-2017-14-02-27.jpg", 
+	"name":"Role"
+	},
+	{
+	"role":"Singer", 
+	"image":"http://in.bmscdn.com/iedb/artist/images/website/poster/large/harish-shankar-20585-24-03-2017-14-02-27.jpg", 
+	"name":"Name"
+	}
+],
+"genre": [
+  "Drama",
+  "comedy"
+],
+"language": "Telugu",
+"lyrics": "O sakkanoda\nPattu pidikilai\nDhaadi chesinaava dhada dhada\n\nKassu bussu kayyalu\nInkentha kaalam\nTheepi muddhu\nYuddhalu veyyali thaalam\nVidigaa naligaa ontari nenu\nNeelo konchem naaku chotivvu\nNinnu pattesukunta\nJanta kattesukunta\nNuvvu naa sonthamanta baabu\nNannu icchesukunta\nNinnu thecchesukunta\nThaali kattinchukunta baabu\n\nChiruburruga chicchubuddilaa\nNuvvante yedamukhamai\nThirigaa nenu\nYepudoo ala thelavaaraga\nNanu nenu nee kalalo\nKanugonnanu\nNacchavu andagaada\nTecchavu naalo teda\nNuvvaade aata laage\nPreminchu kaastha nannu kooda\n\nNinnu pattesukunta\nJanta kattesukunta\nNuvvu naa sonthamanta baabu\nNannu icchesukunta\nNinnu thecchesukunta\nThaali kattinchukunta baabu\n\nPagavaadivo ayinodivo\nThadileni podichoopai\nTharimesthave\nMana madhyalo theralendhuko\nGadi daati cheliodilo padanantave\nChirunavvu chilakarinchu\nChinnapaati chanuvu penchu\nBujji bujji manasu paapam\nKannetthi daanni kanikarinchu\n\nNinnu pattesukunta\nJanta kattesukunta\nNuvvu naa sonthamanta baabu\nNannu icchesukunta\nNinnu thecchesukunta\nThaali kattinchukunta baabu\n\nO sakkanoda\nPattu pidikilai\nDhaadi chesinaava dhada dhada\n\nKassu bussu kayyalu\nInkentha kaalam\nTheepi muddhu\nYuddhalu veyyali thaalam\nVidigaa naligaa ontari nenu\nNeelo konchem naaku chotivvu\n\nNinnu pattesukunta\nJanta kattesukunta\nNuvvu naa sonthamanta baabu\nNannu icchesukunta\nNinnu thecchesukunta\nThaali kattinchukunta baabu"
+}
+]
