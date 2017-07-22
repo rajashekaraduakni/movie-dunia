@@ -1,0 +1,89 @@
+
+.header-search-wrapper{
+	margin: 10px auto 0 240px;
+    width: calc(100% - 600px);
+    height: 40px;
+    display: inline-block;
+    position: relative;
+}
+.header-search-wrapper i{
+    position: absolute;     
+    line-height: 45px;
+    padding-left: 20px;
+     color: #999;
+}
+input.header-search-input {
+    display: block;
+    padding: 8px 8px 8px 72px;
+    width: 100%;
+    background: rgba(50,50,50,0.9);
+    height: 24px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border: none;
+    font-size: 16px;
+    appearance: textfield;
+    font-weight: normal;
+    outline: none;
+    border-radius: 3px;
+    border:1px solid rgba(50,50,50,0.4);
+
+}
+
+/*input.header-search-input:hover {
+    background: rgba(255,255,255,0.5);
+}*/
+
+input.header-search-input:focus {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    border-bottom: none !important;
+    box-shadow: none !important;
+        font-weight: normal;
+}
+
+
+.header-search-input::-webkit-input-placeholder {
+    color: #999;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input::-moz-placeholder {
+   color: #999;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input:-ms-input-placeholder {
+     color: #999;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input:focus::-webkit-input-placeholder {
+
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input:focus::-moz-placeholder {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input:focus::placeholder {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input:focus:-ms-input-placeholder {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.header-search-input::placeholder {
+    font-size: 16px;
+    font-weight: 400
+}
+

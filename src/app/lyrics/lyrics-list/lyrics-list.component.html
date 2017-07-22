@@ -1,0 +1,23 @@
+
+   <div class=" cardCustom-mini col-padding">
+
+      <div class="col s6 m3" *ngFor="let lyric of lyrics" >
+      <a routerLink="/Lyric/{{lyric.id}}">
+        <article class="card show-card">
+          <div class="card-image">
+             <div class="overlayer"></div>
+             <img [src]="lyric.imageURL">
+          </div>
+          <div class="card-content">
+              <h3 class="card-title textOverflow">{{lyric.movieName}}</h3>
+             <p class="chip-title">{{lyric.genre[0]}}, {{lyric.genre[1]}}, {{lyric.audioReleaseDate}}</p>
+          </div>
+       </article>
+       </a>
+      </div>
+
+
+    </div>
+ 
+
+ 

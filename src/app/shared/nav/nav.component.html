@@ -1,0 +1,67 @@
+<mz-navbar>
+  <a routerLink="/" class="brand-logo"><img src="assets/images/logo.png" alt="logo">
+   <!-- <i [id]="'btn-sidenav-demo'" class="material-icons">menu</i>  -->
+  </a>
+  <div class="header-search-wrapper hide-on-med-and-down">
+<form>
+     <i class="material-icons">search</i>
+    <input type="text" [(ngModel)]="searchLyric" name="searchLyric" (keyup)="searchLyrics()" class="header-search-input z-depth-2" placeholder="Serach for Movies & lyrics">
+</form>
+  </div>
+  <mz-navbar-item-container [align]="'right'">
+    <mz-navbar-item><a routerLink="/lyrics">lyrics</a></mz-navbar-item>
+   <a [id]="'btn-sidenav-demo'"><i class="material-icons">menu</i> </a>
+     
+  </mz-navbar-item-container>
+</mz-navbar>
+
+
+<!-- <mz-sidenav>
+  <mz-sidenav-collapsible [onClose]="closeFunctionCallback" [onOpen]="openFunctionCallback">
+    <mz-sidenav-collapsible-header>
+       <i mz-icon-mdi [icon]="'menu-right'" class="caret"></i>Collapsible
+    </mz-sidenav-collapsible-header>
+    <mz-sidenav-collapsible-content>
+      <mz-sidenav-link>
+       <a routerLink="/lyrics">lyrics</a>
+      </mz-sidenav-link>
+      <mz-sidenav-link>
+        <a href="#" class="waves-effect">Second Link</a>
+      </mz-sidenav-link>
+    </mz-sidenav-collapsible-content>
+  </mz-sidenav-collapsible>
+</mz-sidenav>
+ -->
+
+ <mz-sidenav [id]="'sidenav-demo'" [collapseButtonId]="'btn-sidenav-demo'">
+  <div class="center">
+    <a routerLink="/" class="brand-logo"><img src="assets/images/logo.png" alt="logo"></a>
+  </div>
+  <!-- <mz-sidenav-header>
+    Sidenav header
+  </mz-sidenav-header> -->
+  <!-- <mz-sidenav-subheader>Link Subheader</mz-sidenav-subheader> -->
+  <mz-sidenav-link><a routerLink="/lyrics">Lyrics</a></mz-sidenav-link>
+</mz-sidenav>
+
+ 
+
+
+ <!--   <div class=" cardCustom-mini col-padding">
+    <h3>search results</h3>
+      <div class="col s6 m3" *ngFor="let results of searchRes">
+      <a routerLink="/Lyric/{{results.id}}">
+        <article class="card show-card">
+          <div class="card-image">
+             <div class="overlayer"></div>
+             <img [src]="results.imageURL">
+          </div>
+          <div class="card-content">
+              <h3 class="card-title textOverflow">{{results.movieName}}</h3>
+             <p class="chip-title">{{results.genre[0]}}, {{results.genre[1]}}, {{results.audioReleaseDate}}</p>
+          </div>
+       </article>
+       </a>
+      </div>
+
+    </div> -->

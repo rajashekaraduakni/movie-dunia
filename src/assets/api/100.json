@@ -1,0 +1,62 @@
+[
+  {
+"id": "181",
+"imageURL": "http://myewalletsfykxuhqe9y.devcloud.acquia-sites.com/sites/default/files/Guru.jpg",
+"movieName": "Guru",
+"directorName": "Sudha Kongara Prasad",
+"musicDirectorName": "Santhosh Narayanan",
+"productions": "Y NOT Studios",
+"audioReleaseDate": "2017-07-05 00:00:00",
+"movieReleaseDate": "2017-07-05 00:00:00",
+"genre": [
+  "Drama",
+  "Romance"
+],
+"language": "Telugu"
+},
+	{
+"id": "891",
+"imageURL": "http://myewalletsfykxuhqe9y.devcloud.acquia-sites.com/sites/default/files/Ami-Thumi-First-Teaser.jpg",
+"movieName": "Ami Thumi",
+"directorName": "Mohan Krishna Indraganti",
+"musicDirectorName": "Mani Sharma",
+"productions": "A Green Tree Productions",
+"audioReleaseDate": "2017-07-05 00:00:00",
+"movieReleaseDate": "2017-06-09 00:00:00",
+"genre": [
+  "Comedy",
+  "Romance"
+],
+"language": "Telugu"
+},
+  {
+"id": "836",
+"imageURL": "http://myewalletsfykxuhqe9y.devcloud.acquia-sites.com/sites/default/files/Andhhagadu-P01.jpg",
+"movieName": "Andhhagadu",
+"directorName": "Veligonda Srinivas",
+"musicDirectorName": "Shekar Chandra",
+"productions": "AK Entertainments",
+"audioReleaseDate": "2017-07-05 00:00:00",
+"movieReleaseDate": "2017-07-05 00:00:00",
+"genre": [
+  "Comedy",
+  "Romance"
+],
+"language": "Telugu"
+},
+	{
+"id": "891",
+"imageURL": "http://myewalletsfykxuhqe9y.devcloud.acquia-sites.com/sites/default/files/Ami-Thumi-First-Teaser.jpg",
+"movieName": "Ami Thumi",
+"directorName": "Mohan Krishna Indraganti",
+"musicDirectorName": "Mani Sharma",
+"productions": "A Green Tree Productions",
+"audioReleaseDate": "2017-07-05 00:00:00",
+"movieReleaseDate": "2017-06-09 00:00:00",
+"genre": [
+  "Comedy",
+  "Romance"
+],
+"language": "Telugu"
+} 
+]

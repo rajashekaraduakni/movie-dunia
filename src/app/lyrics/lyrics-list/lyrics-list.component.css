@@ -1,0 +1,44 @@
+.overlayer{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.0));
+    position: absolute;
+    width: 100%;
+    height: 100%;     
+    z-index: 1;
+}
+/*.overlayer1{
+position: relative; z-index: 2;
+}*/
+
+/*card list start*/
+.card .card-image{max-height: 200px; min-height: 200px;   overflow: hidden;}
+.card .card-image img{height: 100%;}
+.card.img_large .card-image{max-height: 300px;}
+.show-card{border-radius:5px;  overflow: hidden;}
+.show-card:hover{
+    -ms-box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    box-shadow:0 5px 10px rgba(0,0,0,0.3); 
+}
+.card .card-image{
+    box-shadow: 0;
+    border-radius:0;
+    border: 1px solid #ddd;
+}
+h3.card-title{ margin-top:0; font-size: 110%; color: #212121; line-height: 20px !important; font-weight: 500; margin-bottom: 0 !important;}
+.chip-title{font-size: 90%; color:#888 !important;}
+.card .card-content{padding: 12px 8px;}
+
+/*.card .card-image img{height: 200px;}*/
+/*.lng{padding-bottom: 8px;}*/
+/*.playList{padding: 2px 2px}*/
+/*.banner_reduce{height: 250px;  width: 100%; position: relative; top: -65px; overflow: hidden; margin-bottom: -25px;}*/
+
+/*.chip{background:rgba(255,255,255,0.1); font-size: 76%; border: 0.5px solid rgba(255,255,255,0.2); color: #e4e4e4; line-height: 22px; height: 22px;}*/
+/*.absoluteBottom{position: absolute; bottom: 0; left: 8px; right: 8px;}*/
+/*.lng{padding-bottom: 8px; color: #fff; font-size: 95%;}*/
+.col-padding .col.s6{padding: 9px !important; }
+.col-padding .col.s6:first-child{padding-left: 0  !important;}
+.col-padding .col.s6:nth-child(4n+0){padding-right: 0 !important;}
+
+

@@ -1,0 +1,122 @@
+ <div *ngFor="let detail of lyricDetails"> 
+
+<div class="banner-detail">
+   <div class="mask"></div>
+   <div class="mask-black"></div>
+   <div class="p-t-100 fullW" [ngStyle]="{'background': 'url('+ detail.banner +') no-repeat center'}">
+   <div class="fullDetails" >
+      <div class="container">
+         <div class="row">
+            <div class="col m12">
+               <h4 class="textOverflow">{{detail.movie_name}}</h4>
+               <small class="chip" *ngFor="let genre of detail.genre">{{genre}}</small>
+            </div>
+           <div class="col m12">
+               <ul class="MovieListUser">
+                  <li class="avatar left" *ngFor="let artist of detail.artists">
+                     <div class="role">{{artist.role}}</div>
+                     <img class="circle" [src]="artist.image" alt="{{artist.name}}" title="{{artist.name}}">
+                     <div class="name">{{artist.name}}</div>
+                  </li>
+                  
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+<!-- <div class="container">
+	<div class="row">
+	   <ul class="tabs">
+	      <li class="tab"><a routerLink="/Videos">Videos</a></li>
+	      <li class="tab"><a class="active" routerLink="/lyrics">lyrics</a></li>
+	      <li class="tab"><a href="#Reviews">Reviews</a></li>
+	   </ul>
+	 </div>
+</div> -->
+
+<!-- <div id='Videos'>
+<div class="container">
+   <div class="row">
+      <div class="col m8 s12">
+         <div class="card moveTopCard">
+            <div class="card-content">
+               <div class="card-title">Bahubali Full Movie</div>
+               <div class="youtubeMovie">
+               <iframe src="https://www.youtube.com/embed/XAW915UjfZg?wmode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" frameborder="0" allowfullscreen></iframe>
+
+               </div>
+            </div>
+         </div>
+      </div>
+
+       <div class="col m4 s12">
+       <div class="youtube">
+       <h5>Songs</h5>
+       <iframe src="https://www.youtube.com/embed/XAW915UjfZg?wmode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" frameborder="0" allowfullscree></iframe>
+       <div class="songtitle">Title Name</div>
+
+       <iframe src="https://www.youtube.com/embed/XAW915UjfZg?wmode=opaque&amp;rel=0&amp;autohide=1&amp;showinfo=0&amp;wmode=transparent" frameborder="0" allowfullscree></iframe>
+       <div class="songtitle">Title Name</div>
+
+       </div>
+      </div>
+      
+   </div>
+</div>
+
+</div> -->
+
+
+  
+
+<!-- <div id='lyrics'> -->
+<div class="container">
+   <div class="row">
+      <div class="col m7 s12">
+         <div class="card moveTopCard">
+            <div class="card-content">
+               <div class="card-title">{{detail.song_title}}</div>
+               <p class="pre">{{detail.lyrics}}</p>
+            </div>
+         </div>
+      </div>
+      <div class="col m5 s12">
+         <div class="youtube">
+          <!--   <h5>Lyrics song</h5> -->
+           <!--  <iframe src="https://www.youtube.com/embed/XAW915UjfZg?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;rel=1&amp;showinfo=0&amp;theme=dark&amp;color=red&amp;autohide=2&amp;controls=2&amp;playsinline=0&amp;"  allowfullscreen="" data-no-lazy="1"></iframe>
+            <div class="songtitle">Title Name</div>
+
+            <iframe src="https://www.youtube.com/embed/zX7jeqbu3pE?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;rel=1&amp;showinfo=0&amp;theme=dark&amp;color=red&amp;autohide=2&amp;controls=2&amp;playsinline=0&amp;"  allowfullscreen="" data-no-lazy="1"></iframe>
+           <div class="songtitle">Title Name</div> -->
+           
+         </div>
+         <ul class="collection with-header">
+         		<li class="collection-header">
+                    <h5>{{detail.movie_name}} Songs</h5>
+                  </li>
+                  <li class="collection-item">
+                     <a class="" >Oka Praanam</a>
+                  </li>
+                  <li class="collection-item">
+                     <a class="" >Dandaalayyaa (English Translation) </a>
+                  </li>
+                  <li class="collection-item">
+                     <a class="" >Dandaalayyaa </a>
+                  </li>
+                  <li class="collection-item">
+                     <a class="" >Kannaa Nidurinchara </a>
+                  </li>
+               </ul>
+
+      </div>
+   </div>
+</div>
+<!-- 
+</div> -->
+
+
+ 
+ </div>

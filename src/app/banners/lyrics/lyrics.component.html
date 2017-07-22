@@ -1,0 +1,26 @@
+ 
+   
+ <kb-page-slider [enableOverscroll]="true" [overlayIndicator]="false"  dotColor="black"
+                        [(page)]="pageNumber"  [showIndicator]="true" [enableOverscroll]="true" (pageCountChange)="pageCount = $event">
+
+            <!-- Pages -->
+ <div class="mask"></div>
+            <div class="p-t-100" *kbPages="let page of pages" [ngStyle]="{'background': 'url('+ page.image +') no-repeat center'}">
+           <!--  <img src="{{page.image}}"> -->
+            <div class="bannerTitle">
+                  <h2 class="white-text">{{page.title}}</h2>
+                  <a mz-button  class="raduis">watch review  </a>
+            </div>
+            </div>
+ 
+            <!-- Navigation Buttons -->
+            <kb-nav-button backward [showBackground]="true"
+                        [(page)]="pageNumber" [pageCount]="pageCount">
+            </kb-nav-button>
+ 
+            <kb-nav-button forward [showBackground]="true"
+                        [(page)]="pageNumber" [pageCount]="pageCount">
+            </kb-nav-button>
+ 
+        </kb-page-slider> 
+ 
